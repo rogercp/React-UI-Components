@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer.js'; 
-// import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import CardContainer from './components/CardComponents/CardContainer.js';
+import Footer from './components/FooterComponents/Footer.js';
 
 
 
@@ -11,6 +11,7 @@ const App = () => {
     <div className="app">
      <HeaderContainer />
      <CardContainer />
+     <Footer />
     </div>
   );
 };
