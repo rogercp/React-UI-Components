@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: flex-end; 
+}
+#react-img{
+    width: 88%;
+}
+.card-content{
+    width: 88%;
+}
+a{
+    color: silver;
+}
