@@ -8,7 +8,7 @@ import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 const App = () => {
   return (
     <div>
-      <ImageThumbnail />
+     <HeaderContainer />
     </div>
   );
 };
