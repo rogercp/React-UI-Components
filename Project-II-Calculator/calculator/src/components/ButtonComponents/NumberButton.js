@@ -10,7 +10,6 @@ NumButton.defaultProps={
     buttonStyles:'white',
 };
 
-
 const NumberButton=()=>{
     return (
       <div className="number-buttons">
