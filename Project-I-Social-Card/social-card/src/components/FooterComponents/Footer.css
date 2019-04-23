@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.icons-bottom{
+flex-direction: row;
+display: flex;
+align-self: flex-start;
+width: 50%;
+}
+
+i{
+    font-size: 1.8rem;
+    color: silver;
+    margin-left: 0px;
+    margin-right: 100px;
+    margin-top:20px;
+    margin-bottom:10px;
+    width: 50%;
+    
+}
+i:hover{
+    color: rgb(32, 151, 178);
+}
