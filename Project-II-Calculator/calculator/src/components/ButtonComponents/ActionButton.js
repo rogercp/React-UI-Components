@@ -6,10 +6,11 @@ const ActButton=props=><button className={`actButtonStyles ${props.buttonStyles}
 ActButton.defaultProps={
     buttonStyles:'white',
 };
+
 //////clear button
 const ActionButton=()=>{
     return (
-      <div className="action-botton">
+      <div className="action-button">
       <ActButton text="clear"/>
       </div>
     );

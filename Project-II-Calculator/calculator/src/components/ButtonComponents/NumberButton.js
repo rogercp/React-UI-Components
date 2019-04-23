@@ -15,35 +15,35 @@ const NumberButton=()=>{
     return (
       <div className="number-buttons">
 
-        <div>
+        <div className="inline">
         <ActionButton />
         <NumButton buttonStyles="red" text="%"/>
         </div>
 
-        <div>
-        <NumButton buttonStyles="" text="7"/>
-        <NumButton buttonStyles="" text="8"/>
-        <NumButton buttonStyles="" text="9"/>
+        <div className="four">
+        <NumButton  text="7"/>
+        <NumButton  text="8"/>
+        <NumButton  text="9"/>
         <NumButton buttonStyles="red" text="x"/>
         </div>
 
-        <div>
-        <NumButton buttonStyles="" text="4"/>
-        <NumButton buttonStyles="" text="5"/>
-        <NumButton buttonStyles="" text="6"/>
+        <div className="four">
+        <NumButton  text="4"/>
+        <NumButton  text="5"/>
+        <NumButton  text="6"/>
         <NumButton buttonStyles="red" text="-"/>
-        </div>
+        </div >
 
-        <div>
-        <NumButton buttonStyles="" text="1"/>
-        <NumButton buttonStyles="" text="2"/>
-        <NumButton buttonStyles="" text="3"/>
+        <div className="four">
+        <NumButton  text="1"/>
+        <NumButton  text="2"/>
+        <NumButton  text="3"/>
         <NumButton buttonStyles="red" text="+"/>
         </div>
 
-        <div>
+        <div className="inline">
         <ActionButton2 />
-        <NumButton buttonStyles="rec" text="="/>
+        <NumButton buttonStyles="red" text="="/>
         </div>
 
       </div>

@@ -10,7 +10,7 @@ ActButton2.defaultProps={
 ////////0 action button
 const ActionButton2=()=>{
     return (
-      <div className="action-botton">
+      <div className="action-button">
       <ActButton2 text="0"/>
       </div>
     );
