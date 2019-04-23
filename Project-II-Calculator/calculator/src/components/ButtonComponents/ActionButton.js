@@ -1,17 +1,16 @@
 import React from 'react';
-import './Button.css';
+import './actionbuttons.css';
 
 const ActButton=props=><button className={`actButtonStyles ${props.buttonStyles}`}>{props.text}</button>
 
 ActButton.defaultProps={
     buttonStyles:'white',
 };
-
+//////clear button
 const ActionButton=()=>{
     return (
       <div className="action-botton">
       <ActButton text="clear"/>
-      <ActButton text="0"/>
       </div>
     );
   };
