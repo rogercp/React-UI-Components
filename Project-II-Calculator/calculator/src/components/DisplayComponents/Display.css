@@ -1,0 +1,12 @@
+.display{
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.calc-display{
+    background:black;
+    color: white;
+   
+}
