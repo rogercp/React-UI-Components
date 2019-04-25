@@ -1,0 +1,14 @@
+.white{
+    background: white;
+    
+}
+action-button{
+    width: 100%;
+}
+.actButtonStyles{
+    display: block;
+    width: 18.75rem;
+    height: 80px;
+    font-size: 2.8rem;
+    
+    }
